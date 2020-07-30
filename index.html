@@ -22,6 +22,8 @@
 	<meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
 	<title>ЯTunes</title>
+	<script src="./js/md5-min.js"></script>
+	<script src="./js/lastfm.api.js"></script>
 	<script src="./js/index.js" type="module" defer></script>
 
 	<link rel="stylesheet" href="./css/normalize.css">
@@ -42,6 +44,8 @@
 			<div class="player-btn player-audio">Музыка</div>
 
 			<div class="player-btn player-radio">Радио</div>
+			
+			<div class="player-btn player-myradio">Моя волна</div>
 		</section>
 
 		<div class="temp">
@@ -178,6 +182,20 @@
 				<button class="radio-stop fa fa-play"></button>
 			</footer>
 		</article>
+		
+
+		<article class="player-block myaradio">
+			<div class="container">
+				<div class="myaradio__menu">
+					Авторизация
+				</div>
+	
+			<!-- <footer class="footer-fix myradio-footer">
+				<button class=" myradio-stop fa fa-play"></button>
+			</footer> -->
+		</article>
+
+
 	</main>
 
 

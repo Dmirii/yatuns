@@ -138,6 +138,13 @@ main {
 
 .player-radio.active {
   border-top: 2px solid #F51E38;
+  border-right: 2px solid #F51E38;
+  border-bottom: 2px solid transparent;
+  border-left: 2px solid #F51E38;
+}
+
+.player-myradio.active {
+  border-top: 2px solid #F51E38;
   border-bottom: 2px solid transparent;
   border-left: 2px solid #F51E38;
 }
