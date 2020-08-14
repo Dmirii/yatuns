@@ -725,6 +725,25 @@ input[type=range]:focus::-ms-fill-upper {
   font-weight: 700;
 }
 
+.myradio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.myradio-container {
+  width: 100%;
+}
+
 .video {
   display: none;
 }
@@ -750,6 +769,16 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .radio.active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.myradio {
+  display: none;
+}
+
+.myradio.active {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

@@ -31,13 +31,9 @@ const temp = document.querySelector('.temp');
 
 
 
-
-
-
 radioPlayerInit();
 musicPlayerInit();
-videoPlayerInit();
-
+videoPlayerInit();  
 
 
 //
